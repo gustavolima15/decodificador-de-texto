@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #F3F5FC;
+}
+
+
+.containner__imagem {
+    padding: 2.5rem 2.5rem;
+    width: 7.5rem;
+    height: 3rem;
+}
+
+.containner {
+    padding: 2rem 2rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+.containner__bloco01 {
+    padding: 15rem 10.5rem;
+    width: 65%;
+    font-size: 32px;
+    font-family:'Lucida Sans Regular', sans-serif;
+    color: #0A3871;
+}
+
+.containner__bloco02 {
+    width: 35%;
+    
+}
+
+.containner__bloco02__retangulo {
+    display: flex;
+    width: 25rem;
+    height: 59rem;
+    background-color: white;
+    border-radius: 2rem;
+}
